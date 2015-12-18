@@ -46,10 +46,7 @@ Base path should contain all EuclideanOS trees in subfolders, named after Euclid
     export EUCOS_CROWDIN_BASE_PATH=your_base_path
 
 Execute:
-    ./crowdin_sync.py --username your_github_username --branch branch_name [--no-download|--no-upload]
-
-Placement
-    crowdin_sync.py needs to be in the root of your source tree as well as the crowdin folder
+    ./crowdin_sync.py --username your_github_username --branch eucos_version [--upload-sources] [--upload-translations] [--download]
 
 Credits/Thanks
 --------------
