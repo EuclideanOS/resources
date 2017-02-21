@@ -1,0 +1,11 @@
+[B][SIZE="5"][FONT="Trebuchet MS"][COLOR="#4285F4"]Resources:[/COLOR][/FONT][/SIZE][/B]
+[SIZE="3"]
+Android is defined by it's large community & open source method. So, we want to provide to the users all the resources of Euclidean OS. [URL="https://github.com/EuclideanOS/resources]Here[/URL] you can find all the resources you need.
+What's inside:
+[LIST]
+[*][URL="https://github.com/EuclideanOS/resources/blob/master/release.sh"]Build script[/URL] - This script contains a menu based build system that can be edited to point to multiple repos.
+It can Auto Upload via sftp to your host of choice right now it is setup for androidfilehost.
+[*][URL="https://github.com/EuclideanOS/resources/blob/master/update-themes.sh"]Theme Resources script[/URL] - [B]FOR THEMERS[/B] This script is to help out the themers with EuclideanOS custom drawables.
+You can read more about it here: [URL="https://devs-base.com/viewtopic.php?f=198&t=188"]https://devs-base.com/viewtopic.php?f=198&t=188[/URL]
+[*][URL="https://github.com/EuclideanOS/resources/blob/master/threadtemplate"]Thread Layout[/URL] - This contains the thread template ro use in the forums like XDA or devs-base. 
+[/LIST][/SIZE]

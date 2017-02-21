@@ -1,0 +1,48 @@
+[B][SIZE="5"][FONT="Trebuchet MS"][COLOR="#4285F4"]Disclaimer:[/COLOR][/FONT][/SIZE][/B]
+[HIDE][CODE]
+#include 
+/*
+ * Your warranty is now void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications at YOUR OWN RISK.
+ */
+[/CODE][/HIDE]
+
+[B][SIZE="5"][FONT="Trebuchet MS"][COLOR="#4285F4"]About:[/COLOR][/FONT][/SIZE][/B]
+[SIZE="3"]EuclideanOS stands for stability, speed and simplicity. We all have different opinions about how a perfect android operating system would be, due that, there're plenty of custom ROM's avaliable. We don't want to be just another one, but the one, mainly for the AOSP lovers. Our goal is to provide extra features and improvements into the code without compromising the stability and the performance, always looking for the best way to improve and open for opinions in order to give to the user the best android experience. Don't get stuck in the past, the future is here!![/SIZE]
+
+[B][SIZE="5"][FONT="Trebuchet MS"][COLOR="#4285F4"]Features:[/COLOR][/FONT][/SIZE][/B]
+[SIZE="3"][LIST]
+[*]Full Google Pixel devices experience
+[*]Latest Android release
+[*]Busybox, init.d, addon.d support
+[*]UI Improvements (materialized some forgeted drawabales by google)
+[*]Full Substratum Theme Engine support (OMS)
+[*]ADB enhancements
+[*]Qualcomm Snapdragon Clang 3.8
+[*]Qualcomm BiQuad Audio Codec
+[*]GApps Included
+[*]Night Display
+[*]Ambient Display
+[*]F2FS Support [rom,kernel]
+[*]OpenDelta Updater
+[*]MicroG full support
+[*]Signature spoofing support
+[*]PureNexus Customization (see screenshots)
+[*]AOSPA Battery Style
+[*]LockScreen Blur
+[*]Disable battery saving status & navbar colors
+[*]LockScreen PIN Quick-Unlock
+[*]Custom brightness slider
+[*]Custom keyboard IME features
+[*]CopperheadOS Extra Security Patches [rom,kernel]
+[*]MultiROM full support [rom,kernel]
+[*]Stereo call recording support [kernel]
+[*]Fast charge support [kernel]
+[*]Frandom support [kernel]
+[*]Battery Life eXtender [kernel]
+[*]UBERTC 4.8 Toolchain [kernel]
+[/LIST][/SIZE]
