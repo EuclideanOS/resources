@@ -1,0 +1,35 @@
+Euclidean OS Resources
+======================
+
+This section includes all the resources outside the ROM. It contains the resources of EuclideanOS for themeres, xda thread template, build script and some other resources.
+
+Build Script
+-------------
+
+release.sh
+
+    This script contains a menu based build system that can be edited to point to multiple repos.
+    It can Auto Upload via sftp to your host of choice right now it is setup for androidfilehost
+
+Theme Resources Script
+----------------------
+
+update-themes.sh
+
+    This script is to help out the themers with EuclideanOS custom drawables.
+    You can read more about it here: https://devs-base.com/viewtopic.php?f=198&t=188
+
+Forum Template
+--------------
+
+threadtemplate
+
+    This contains the thread template ro use in the forums like XDA or devs-base. 
+
+
+Credits/Thanks
+--------------
+
+@beanstown106 for the build script (https://github.com/beanstown106/scripts/blob/master/PureMenu.sh)
+
+@DirtyUnicorns team for the theme resources script (https://github.com/DirtyUnicorns/DU-Scripts/blob/n/update-themes.sh)
