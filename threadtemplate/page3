@@ -23,7 +23,7 @@
 [*]Full Substratum Theme Engine support (OMS)
 [*]ADB enhancements
 [*]Qualcomm Snapdragon Clang 3.8
-[*]Qualcomm BiQuad Audio Codec
+[*]Qualcomm biQuads Stereo Audio Codec
 [*]Qualcomm aptX HD Bluetooth
 [*]GApps Included
 [*]Night Display
@@ -34,6 +34,7 @@
 [*]Signature spoofing support
 [*]PureNexus Customization (see screenshots)
 [*]AOSPA Battery Style
+[*]AOSPA build enhacements (sqlite, zlib, f2fs, sdclang, jpeg, png, skia, ...)
 [*]LockScreen Blur
 [*]Disable battery saving status & navbar colors
 [*]LockScreen PIN Quick-Unlock
