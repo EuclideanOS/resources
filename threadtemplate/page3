@@ -20,32 +20,31 @@
 [*]Latest Android release
 [*]Busybox, init.d, addon.d support
 [*]UI Improvements (materialized some forgeted drawabales by google)
-[*]Full Substratum Theme Engine support (OMS)
+[*]Full Substratum Theme Engine support (Rootless Mode)
 [*]ADB enhancements
 [*]Qualcomm Snapdragon Clang 3.8
 [*]Qualcomm biQuads Stereo Audio Codec
-[*]Qualcomm aptX HD Bluetooth
-[*]GApps Included
 [*]Night Display
 [*]Ambient Display
-[*]F2FS Support [rom,kernel]
+[*]F2FS Support
 [*]OpenDelta Updater
 [*]MicroG full support
 [*]Signature spoofing support
 [*]PureNexus Customization (see screenshots)
 [*]AOSPA Battery Style
 [*]AOSPA build enhacements (sqlite, zlib, f2fs, sdclang, jpeg, png, skia, ...)
-[*]LockScreen Blur
 [*]Disable battery saving status & navbar colors
 [*]LockScreen PIN Quick-Unlock
 [*]Custom brightness slider
 [*]Custom keyboard IME features
 [*]Built-in screenrecorder
-[*]CopperheadOS Extra Security Patches [rom,kernel]
-[*]MultiROM full support [rom,kernel]
-[*]Stereo call recording support [kernel]
-[*]Fast charge support [kernel]
-[*]Frandom support [kernel]
-[*]Battery Life eXtender [kernel]
-[*]UBERTC 4.8 Toolchain [kernel]
+[*]CopperheadOS Extra Security Patches
+[*]OmniROM MusicFX
+[*]SafetyNet Pass
+[*]Weather QuickSettings
+[*]MultiROM full support
+[*]Stereo call recording support
+[*]Fast charge support
+[*]Frandom support
+[*]Battery Life eXtender
 [/LIST][/SIZE]
