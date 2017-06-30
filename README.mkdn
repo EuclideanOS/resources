@@ -26,10 +26,34 @@ threadtemplate
 
     This contains the thread template ro use in the forums like XDA or devs-base. 
 
+Crowdin Sync
+------------
+This script is used to synchronize EuclideanOS translations with Crowdin's. Also, it can handle
+automatic commiting to Github and pushing/downloading to/from Crowdin.
+
+The Ruby variant of crowdin-cli & python-git is required for this to work.
+
+    \curl -sSL https://get.rvm.io | bash -s stable --ruby
+    source /home/your_username/.rvm/scripts/rvm # Add this to your .bashrc file!
+    rvm all do gem install crowdin-cli
+    sudo apt-get install python-git
+
+Export the following variables to set the API keys and the base path.
+You will also need to add your api key and base path to the crowdin.yaml file
+Base path should contain all EuclideanOS trees in subfolders, named after EuclideanOS branches:
+
+    export EUCOS_CROWDIN_API_KEY=your_api_key
+    export EUCOS_CROWDIN_BASE_PATH=your_base_path
+
+Execute:
+    ./crowdin_sync.py --username your_github_username --branch branch_name [--no-download|--no-upload]
+
+Placement
+    crowdin_sync.py needs to be in the root of your source tree as well as the crowdin folder
 
 Credits/Thanks
 --------------
 
-@beanstown106 for the build script (https://github.com/beanstown106/scripts/blob/master/PureMenu.sh)
+@beanstown106 for the build & crowdin sync scripts (https://github.com/beanstown106/scripts)
 
 @DirtyUnicorns team for the theme resources script (https://github.com/DirtyUnicorns/DU-Scripts/blob/n/update-themes.sh)
