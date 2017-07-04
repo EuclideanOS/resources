@@ -17,26 +17,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-api_key: 012345678900987654321
-base_path: /home/marco/eucos/resources/crowdin
+api_key_env: EUCOS_CROWDIN_API_KEY
+base_path_env: EUCOS_CROWDIN_BASE_PATH
+base_path_contains_branch_subfolders: true
 project_identifier: euclidean-os
 preserve_hierarchy: true
 
 files:
-# Default for EuclideanOS
+# Frameworks
+
+ # framework-res
   -
-    source:      '/**/values/purenexus_strings.xml'
+    source:      '/frameworks/base/core/res/res/values/purenexus_strings.xml'
     translation: '/%original_path%-%android_code%/%original_file_name%'
     languages_mapping: &anchor
       android_code:
         af: af
         am: am
         ar: ar
-        ast: es-rXA
-        az: az
+        az: az-rAZ
         be: be
         bg: bg
-        bn: bn
         ca: ca
         cs: cs
         da: da
@@ -44,36 +45,31 @@ files:
         el: el
         es-ES: es
         et: et
-        eu: eu
         fa: fa
         fi: fi
         fr: fr
-        gl: gl
         he: iw
         hi: hi
         hr: hr
         hu: hu
         hy-AM: hy
         id: in
-        is: is
         it: it
         ja: ja
         ka: ka
         km: km
         ko: ko
-        ku: ku
-        lb: lb
-        lo: lo
+        lo: lo-rLA
         lt: lt
         lv: lv
-        ml-IN: ml
         mn: mn
         ms: ms
         nb: nb
         ne-NP: ne
         nl: nl
-        pa-IN: pa
         pl: pl
+        pt-PT: pt-rPT
+        pt-BR: pt-rBR
         rm-CH: rm
         ro: ro
         ru: ru
@@ -83,11 +79,27 @@ files:
         sr: sr
         sv-SE: sv
         sw: sw
-        ta: ta
         th: th
         tl: tl
         tr: tr
-        ug: ug
         uk: uk
         vi: vi
+        zh-CN: zh-rCN
+        zh-HK: zh-rHK
+        zh-TW: zh-rTW
         zu: zu
+
+ # SystemUI
+  -
+    source:      '/frameworks/base/packages/SystemUI/res/values/purenexus_strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: *anchor
+
+
+# Packages
+
+ # Settings
+  -
+    source:      '/packages/apps/Settings/res/values/purenexus_strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: *anchor
